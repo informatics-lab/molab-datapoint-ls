@@ -1,0 +1,14 @@
+{
+  "name": "molab-datapoint-ls",
+  "version": "1.0.0",
+  "description": "user-friendly serverless endpoint for Met Office datapoint",
+  "main": "src/main/js/handler.js",
+  "scripts": {
+    "test": "mocha src/test/js"
+  },
+  "author": "thomas.powell",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "serverless-mocha-plugin": "^1.3.2"
+  }
+}
