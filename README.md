@@ -10,7 +10,7 @@ Project src is written in ES6, compiles to ES2015 in `./dist` directory.
 use `npm run compile`
 
 ## Deployment
-Compile and deploy this service to AWS Lambda; creates the function and an associated API Gateway endpoint for the function.
+Compile and deploy this service to AWS Lambda; creates the function and an associated API Gateway endpoint for the function.  
 use `npm run deploy`
 
 ## Testing
