@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title":"molab-datapoint-ls request",
+  "description": "A basic request to the Met Office Lab's Datapoint Lambda Service",
+  "type": "object",
+  "properties": {
+    "location": {
+      "description": "The location property of the request",
+      "type": "string"
+    }
+  },
+  "required": [
+    "location"
+  ]
+}

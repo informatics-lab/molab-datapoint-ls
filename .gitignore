@@ -3,3 +3,5 @@
 .serverless
 node_modules
 *.iml
+credentials.sh
+dist

@@ -1,14 +1,23 @@
 service: molab-datapoint-ls
 
+# AWS account config
 provider:
   name: aws
   runtime: nodejs4.3
   region: eu-west-1
   profile: serverless-admin
 
+# what to include in our artifact
+package:
+  exclude:
+    - .idea/**
+    - src/**
+    - credentials.sh
+
+# hooks
 functions:
   datapoint:
-    handler: src/main/js/handler.datapoint
+    handler: dist/handler.datapoint
     events:
       - http:
           path: datapoint
