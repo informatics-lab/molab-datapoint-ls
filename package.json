@@ -23,9 +23,11 @@
     "babel": "^6.5.2",
     "babel-cli": "^6.18.0",
     "datapoint-js": "^0.2.1",
+    "haversine": "^1.0.2",
     "http-status-codes": "^1.0.6",
     "immutable": "^3.8.1",
     "jsonschema": "^1.1.1",
+    "node-fetch": "^1.6.3",
     "q": "^1.4.1"
   }
 }

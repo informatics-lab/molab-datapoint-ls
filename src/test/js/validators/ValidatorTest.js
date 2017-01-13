@@ -26,14 +26,6 @@ describe('Validator', () => {
     });
 
     it("fails", (done) => {
-        // validator.validate({foo: "bar"})
-        //     .then(() => {
-        //         console.log("unintentional resolve!");
-        //     })
-        //     .catch((err) => {
-        //     console.log("Error:\n",err);
-        // });
-
         expect(validator.validate({foo: "bar"})).to.eventually.be.rejected.notify(done);
     })
     
