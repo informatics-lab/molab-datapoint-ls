@@ -30,6 +30,7 @@ export default class ManualDatapoint {
                     };
                 }
             });
+            //TODO check distance here and reject if too far?
             resolve(nearest);
         });
     }
