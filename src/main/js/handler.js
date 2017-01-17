@@ -7,6 +7,7 @@ import ManualDatapoint from "./datapoint/ManualDatapoint";
 import JsonResponse from "./responses/JsonResponse";
 import TextResponse from "./responses/TextResponse";
 import * as HttpStatus from "http-status-codes";
+import Forecast from "./datapoint/Forecast";
 
 const validator = new Validator(schema);
 const geocoder = new Geocoder();
@@ -27,7 +28,7 @@ module.exports.datapoint = (event, context, callback) => {
                 return datapoint.getForecastForSiteId(loc.location.id)
             })
             .then((fcst) => {
-                callback(null, new JsonResponse(fcst));
+                callback(null, new JsonResponse(Forecast.buildFromResponse(fcst)));
             })
             .catch((err) => {
                 callback(null, new TextResponse(err.toString(), HttpStatus.INTERNAL_SERVER_ERROR));

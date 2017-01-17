@@ -23,19 +23,19 @@ describe('ManualDatapoint', () => {
         datapoint = new ManualDatapoint();
     });
 
-    it("gets the closest forecast site to exeter", () => {
-        expect(datapoint.getNearestSiteToLatLng(exeter)).to.have.deep.property("location.id", "310069");
+    it("gets the closest forecast site to exeter", (done) => {
+        expect(datapoint.getNearestSiteToLatLng(exeter)).to.eventually.have.deep.property("location.id", "310069").notify(done);
     });
 
-    it("gets the forecast for a given site", (done) => {
-        datapoint.getForecastForSiteId(siteId)
-            .then((json) => {
-                console.log(json);
-                done();
-            })
-            .catch((err) => {
-                console.log(err);
-            })
-        
-    }).timeout(1000);
+    // it("gets the forecast for a given site", (done) => {
+    //     datapoint.getForecastForSiteId(siteId)
+    //         .then((json) => {
+    //             console.log(json);
+    //             done();
+    //         })
+    //         .catch((err) => {
+    //             console.log(err);
+    //         })
+    //
+    // }).timeout(1000);
 });
