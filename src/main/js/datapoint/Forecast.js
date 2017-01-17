@@ -35,37 +35,31 @@ export default class Forecast {
                     dateTime : dayDate.add(timestep.$, "m").format(),
                     windDirection : {
                         name: "wind direction",
-                        code: "D",
                         value: timestep.D,
                         units: "16-point compass direction"
                     },
                     feelsLikeTemperature : {
                         name: "feels like temperature",
-                        code: "F",
                         value: parseInt(timestep.F),
                         units: "°C"
                     },
                     windGust: {
                         name: "wind gust",
-                        code: "G",
                         value: parseInt(timestep.G),
                         units: "mph"
                     },
                     screenRelativeHumidity: {
                         name: "screen relative humidity",
-                        code: "H",
                         value: parseInt(timestep.H),
                         units: "%"
                     },
                     temperature: {
                         name: "temperature",
-                        code: "T",
                         value: parseInt(timestep.T),
                         units: "°C"
                     },
                     visibility: {
                         name: "visibility",
-                        code: "V",
                         value: {
                             index: timestep.V,
                             description: this.getVisibility(timestep.V)
@@ -73,13 +67,11 @@ export default class Forecast {
                     },
                     windSpeed: {
                         name: "wind speed",
-                        code: "S",
                         value: parseInt(timestep.S),
                         units: "mph"
                     },
                     maxUVIndex: {
                         name: "maximum ultra violet index",
-                        code: "U",
                         value: {
                             index: timestep.U,
                             description: this.getUVIndex(timestep.U)
@@ -87,7 +79,6 @@ export default class Forecast {
                     },
                     weatherType: {
                         name: "weather type",
-                        code: "W",
                         value: {
                             index: timestep.W,
                             description: this.getWeatherType(timestep.W)
@@ -95,7 +86,6 @@ export default class Forecast {
                     },
                     precipitationProbability: {
                         name: "precipitation probability",
-                        code: "Pp",
                         value: parseInt(timestep.Pp),
                         units: "%"
                     }
