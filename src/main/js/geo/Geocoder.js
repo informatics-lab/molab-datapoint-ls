@@ -32,8 +32,22 @@ export default class Geocoder {
     getLatLng(locationString) {
         return this.geocode(locationString)
             .then((response) => {
-                return response.json.results[0].geometry.location;
+                const result = response.json.results[0];
+                if(placeInUK(result)) {
+                    return response.json.results[0].geometry.location;
+                } else {
+                    return Promise.reject(locationString + " was found to be outside of the UK");
+                }
             });
     }
 
+};
+
+const placeInUK = (result) => {
+    result.address_components.reverse().forEach((ac) => {
+        if(ac.long_name === "United Kingdom"){
+            return true;
+        }
+    });
+    return false;
 };

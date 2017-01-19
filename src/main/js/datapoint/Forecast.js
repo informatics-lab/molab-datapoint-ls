@@ -22,75 +22,81 @@ export default class Forecast {
         f.site["latitude"] = parseFloat(datapointResponse.SiteRep.DV.Location.lat);
         f.site["longitude"] = parseFloat(datapointResponse.SiteRep.DV.Location.lon);
         f.site["elevation"] = parseFloat(datapointResponse.SiteRep.DV.Location.elevation);
-        f["forecast"] = this.mapResponseData(datapointResponse.SiteRep.DV.Location.Period);
+        let data = this.mapResponseData(datapointResponse.SiteRep.DV.Location.Period);
+        f["forecast"] = {};
+        f.forecast["current"] = data.shift();
+        f.forecast["future"] = data;
         return f;
     }
 
     static mapResponseData(array) {
         let data = [];
+        let now = new moment.utc();
         array.forEach((day)=> {
             day.Rep.forEach((timestep)=> {
-                let dayDate = moment.utc(day.value.substring(0, day.value.length-1));
-                let ts = {
-                    dateTime : dayDate.add(timestep.$, "m").format(),
-                    windDirection : {
-                        name: "wind direction",
-                        value: timestep.D,
-                        units: "16-point compass direction"
-                    },
-                    feelsLikeTemperature : {
-                        name: "feels like temperature",
-                        value: parseInt(timestep.F),
-                        units: "°C"
-                    },
-                    windGust: {
-                        name: "wind gust",
-                        value: parseInt(timestep.G),
-                        units: "mph"
-                    },
-                    screenRelativeHumidity: {
-                        name: "screen relative humidity",
-                        value: parseInt(timestep.H),
-                        units: "%"
-                    },
-                    temperature: {
-                        name: "temperature",
-                        value: parseInt(timestep.T),
-                        units: "°C"
-                    },
-                    visibility: {
-                        name: "visibility",
-                        value: {
-                            index: timestep.V,
-                            description: this.getVisibility(timestep.V)
+                let tsDateTime = new moment.utc(day.value.substring(0, day.value.length - 1)).add(timestep.$, "m");
+                if (new moment.utc(tsDateTime).add(3, "h").isAfter(now)) {
+                    let ts = {
+                        dateTime: tsDateTime.format(),
+                        windDirection: {
+                            name: "wind direction",
+                            value: timestep.D,
+                            units: "16-point compass direction"
+                        },
+                        feelsLikeTemperature: {
+                            name: "feels like temperature",
+                            value: parseInt(timestep.F),
+                            units: "°C"
+                        },
+                        windGust: {
+                            name: "wind gust",
+                            value: parseInt(timestep.G),
+                            units: "mph"
+                        },
+                        screenRelativeHumidity: {
+                            name: "screen relative humidity",
+                            value: parseInt(timestep.H),
+                            units: "%"
+                        },
+                        temperature: {
+                            name: "temperature",
+                            value: parseInt(timestep.T),
+                            units: "°C"
+                        },
+                        visibility: {
+                            name: "visibility",
+                            value: {
+                                index: timestep.V,
+                                description: this.getVisibility(timestep.V)
+                            }
+                        },
+                        windSpeed: {
+                            name: "wind speed",
+                            value: parseInt(timestep.S),
+                            units: "mph"
+                        },
+                        maxUVIndex: {
+                            name: "maximum ultra violet index",
+                            value: {
+                                index: timestep.U,
+                                description: this.getUVIndex(timestep.U)
+                            }
+                        },
+                        weatherType: {
+                            name: "weather type",
+                            value: {
+                                index: timestep.W,
+                                description: this.getWeatherType(timestep.W)
+                            }
+                        },
+                        precipitationProbability: {
+                            name: "precipitation probability",
+                            value: parseInt(timestep.Pp),
+                            units: "%"
                         }
-                    },
-                    windSpeed: {
-                        name: "wind speed",
-                        value: parseInt(timestep.S),
-                        units: "mph"
-                    },
-                    maxUVIndex: {
-                        name: "maximum ultra violet index",
-                        value: {
-                            index: timestep.U,
-                            description: this.getUVIndex(timestep.U)
-                        }
-                    },
-                    weatherType: {
-                        name: "weather type",
-                        value: {
-                            index: timestep.W,
-                            description: this.getWeatherType(timestep.W)
-                        }
-                    },
-                    precipitationProbability: {
-                        name: "precipitation probability",
-                        value: parseInt(timestep.Pp),
-                        units: "%"
-                    }
-                };
-                data.push(ts);
+                    };
+                    data.push(ts);
+                }
             });
         });
         return data;

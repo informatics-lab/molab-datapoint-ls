@@ -23,11 +23,15 @@ describe('Geocoder', () => {
     //     return expect(geocoder.geocode('London')).to.eventually.not.be.empty;
     // }).timeout(1000);
 
-    // it('gets the lat lon of London', () => {
-    //     return expect(geocoder.getLatLng('London')).to.eventually.deep.equal({
+    // it('gets the lat lon of London', (done) => {
+    //     expect(geocoder.getLatLng('London')).to.eventually.deep.equal({
     //         lat: 51.5073509,
     //         lng: -0.1277583
-    //     });
+    //     }).notify(done);
+    // }).timeout(1000);
+
+    // it('rejects Paris', (done) => {
+    //     expect(geocoder.getLatLng('Paris')).to.eventually.be.rejected.notify(done);
     // }).timeout(1000);
 
 });
