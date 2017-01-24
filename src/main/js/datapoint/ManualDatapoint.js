@@ -3,6 +3,7 @@
  */
 
 import * as locations from "./locations";
+import * as regions from "./regions";
 import haversine from "haversine";
 import fetch from "node-fetch";
 
@@ -26,21 +27,59 @@ export default class ManualDatapoint {
                 if (dist < nearest.dist) {
                     nearest = {
                         dist: dist,
-                        location: loc
+                        location: loc,
+                        region: regions[loc.region]
                     };
                 }
             });
-            //TODO check distance here and reject if too far?
             resolve(nearest);
         });
     }
 
-    getForecastForSiteId(id) {
-        const fcsUri = "http://" + baseUri + "/val/wxfcs/all/json/" + id + "?res=3hourly&key=" + this.key;
+    getDataForSiteId(siteId) {
+        const fcsUri = "http://" + baseUri + "/val/wxfcs/all/json/" + siteId + "?res=3hourly&key=" + this.key;
         return fetch(fcsUri)
-                .then((res) => {
-                    return res.json();
-                });
+            .then((res) => {
+                return res.json();
+            });
+    }
+
+    getTextForRegionId(regionId) {
+        const txtUri = "http://" + baseUri + "/txt/wxfcs/regionalforecast/json/" + regionId + "?key=" + this.key;
+        return fetch(txtUri)
+            .then((res) => {
+                return res.json();
+            });
+    }
+
+    getForecastForLatLng(latlng) {
+        return new Promise((resolve, reject) => {
+            let site;
+            let data;
+            let text;
+
+            this.getNearestSiteToLatLng(latlng)
+                .then((s) => {
+                    site = s;
+                    return this.getDataForSiteId(site.location.id);
+                })
+                .then((d) => {
+                    data = d;
+                    return this.getTextForRegionId(site.region.id);
+                })
+                .then((txt) => {
+                    text = txt;
+                    resolve(
+                        {
+                            site: site,
+                            data: data,
+                            text: text
+                        }
+                    );
+                }).catch((err) => {
+                reject(err);
+            });
+        });
     }
 
 }
