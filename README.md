@@ -2,7 +2,11 @@
 User-friendly serverless endpoint for Met Office Datapoint API.
 
 ## Usage
-method `GET` endpoint `<YOUR SERVICE ENDPOINT>/datapoint?location=<LOCATION>`  
+method | endpoint
+-------|---------
+`GET` | `<YOUR SERVICE ENDPOINT>/datapoint?location=<LOCATION>`
+
+
 * `location` query parameter is required.  
 
 
