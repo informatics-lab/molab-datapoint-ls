@@ -20,34 +20,41 @@ export default class Geocoder {
      * @param locationString location to geocode
      * @returns {Promise}
      */
-    geocode(locationString) {
-        return this.googleMapsClient.geocode({address: locationString}).asPromise();
+    geocodeUK(locationString) {
+        return this.googleMapsClient.geocode({address: locationString, region: "uk", language: "en"}).asPromise();
     }
 
     /**
-     * Gets the lat & lng of the specified location string
+     * Gets the lat & lng of the specified location string if it's found to be in the UK.
      * @param locationString location to geocode
      * @returns {Promise}
      */
-    getLatLng(locationString) {
-        return this.geocode(locationString)
+    getLatLngUK(locationString) {
+        return this.geocodeUK(locationString)
             .then((response) => {
                 const result = response.json.results[0];
-                if(placeInUK(result)) {
-                    return response.json.results[0].geometry.location;
+                if (result) {
+                    return placeInUK(result);
                 } else {
-                    return Promise.reject(locationString + " was found to be outside of the UK");
+                    return Promise.reject("[" + locationString + "] could not be located");
                 }
-            });
+            }).then((result) => {
+                return result.geometry.location;
+            }).catch((err)=> {
+                return Promise.reject(err);
+            })
     }
 
 };
 
 const placeInUK = (result) => {
-    result.address_components.reverse().forEach((ac) => {
-        if(ac.long_name === "United Kingdom"){
-            return true;
-        }
+    return new Promise((resolve, reject) => {
+        result.address_components.forEach((ac) => {
+            console.log(ac.types.toString()+ " "+ ac.long_name);
+            if (ac.long_name === "United Kingdom") {
+                resolve(result);
+            }
+        });
+        reject("[" + result.formatted_address + "] was located but is outside of the UK" );
     });
-    return false;
 };

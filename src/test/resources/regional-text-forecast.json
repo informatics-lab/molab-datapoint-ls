@@ -1,0 +1,49 @@
+{
+  "RegionalFcst": {
+    "createdOn": "2017-01-23T13:17:30",
+    "issuedAt": "2017-01-23T16:00:00",
+    "regionId": "sw",
+    "FcstPeriods": {
+      "Period": [
+        {
+          "id": "day1to2",
+          "Paragraph": [
+            {
+              "title": "Headline:",
+              "$": "Cold tonight with some fog. Turning cloudier tomorrow for some."
+            },
+            {
+              "title": "This Evening and Tonight:",
+              "$": "It will stay dry overnight and turn cold with a widespread frost developing. Some locally dense patches of freezing fog are also possible, especially in the east. South-westerly winds will also increase in the west later. Minimum Temperature -4C."
+            },
+            {
+              "title": "Tuesday:",
+              "$": "Fog will be slow to clear, and it'll be cold where it persists. Although, some sunny spells will also develop. However, the cloud will thicken in the west later. Maximum Temperature 10C."
+            }
+          ]
+        },
+        {
+          "id": "day3to5",
+          "Paragraph": {
+            "title": "Outlook for Wednesday to Friday:",
+            "$": "Remaining breezy through the rest of the week but remaining dry with variable cloud amounts. Staying chilly overnight with some frost possible. Perhaps wetter in the far west on Friday."
+          }
+        },
+        {
+          "id": "day6to15",
+          "Paragraph": {
+            "title": "UK Outlook for Saturday 28 Jan 2017 to Monday 6 Feb 2017:",
+            "$": "The weekend will bring a change to more unsettled conditions for many parts of the UK. Outbreaks of locally heavy rain are likely to affect western and northern parts, where it'll be mild and windy with gales possible in the north-west. Staying drier in the east and south-east, where some cold nights remain possible. Similar conditions are likely as we move through into the first week of February. Bands of rain will probably cross the country, interspersed with brighter and showery interludes. Windy at times, with gales likely in the northwest. The heaviest rain is also likely across northern and western parts. Temperatures are likely to be mild into the start of February, however there is a chance that the southeast may be drier and colder at times."
+          }
+        },
+        {
+          "id": "day16to30",
+          "Paragraph": {
+            "title": "UK Outlook for Tuesday 7 Feb 2017 to Tuesday 21 Feb 2017:",
+            "$": "At the start of this period the most likely scenario is for more unsettled weather with wet and windy spells interspersed with brighter and showery interludes. This would bring gales at times, especially in the northwest. Temperatures are likely to be slightly above normal for the time of year. South-eastern parts may well stay drier and brighter. From the middle of February, confidence in the forecast reduces but there is a possibility that high pressure will return, bringing more settled weather with lighter winds. As a result, temperatures may become colder at times, with overnight frost and fog again possible."
+          }
+        }
+      ]
+    }
+  }
+}

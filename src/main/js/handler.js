@@ -19,16 +19,13 @@ module.exports.datapoint = (event, context, callback) => {
     if (event.queryStringParameters) {
         validator.validate(event.queryStringParameters)
             .then(() => {
-                return geocoder.getLatLng(event.queryStringParameters.location)
+                return geocoder.getLatLngUK(event.queryStringParameters.location)
             })
             .then((latlng) => {
-                return datapoint.getNearestSiteToLatLng(latlng);
+                return datapoint.getForecastForLatLng(latlng);
             })
-            .then((loc) => {
-                return datapoint.getForecastForSiteId(loc.location.id)
-            })
-            .then((fcst) => {
-                callback(null, new JsonResponse(Forecast.buildFromResponse(fcst)));
+            .then((resp) => {
+                callback(null, new JsonResponse(Forecast.buildFromDatapointResponses(resp)));
             })
             .catch((err) => {
                 callback(null, new TextResponse(err.toString(), HttpStatus.INTERNAL_SERVER_ERROR));

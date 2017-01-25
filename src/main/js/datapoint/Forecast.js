@@ -12,24 +12,39 @@ export default class Forecast {
     constructor() {
     }
 
-    static buildFromResponse(datapointResponse) {
+    /**
+     * method expects...
+     *
+     * {
+     *    site: datapoint site,
+     *    data: datapoint data response,
+     *    text: datapoint text response,
+     * }
+     *
+     * @param datapointResponses
+     * @returns {Forecast}
+     */
+    static buildFromDatapointResponses(datapointResponses) {
         let f = new Forecast();
         f["site"] = {};
-        f.site["id"] = datapointResponse.SiteRep.DV.Location.i;
-        f.site["name"] = datapointResponse.SiteRep.DV.Location.name;
-        f.site["country"] = datapointResponse.SiteRep.DV.Location.country;
-        f.site["continent"] = datapointResponse.SiteRep.DV.Location.continent;
-        f.site["latitude"] = parseFloat(datapointResponse.SiteRep.DV.Location.lat);
-        f.site["longitude"] = parseFloat(datapointResponse.SiteRep.DV.Location.lon);
-        f.site["elevation"] = parseFloat(datapointResponse.SiteRep.DV.Location.elevation);
-        let data = this.mapResponseData(datapointResponse.SiteRep.DV.Location.Period);
+        f.site["id"] = datapointResponses.data.SiteRep.DV.Location.i;
+        f.site["name"] = datapointResponses.data.SiteRep.DV.Location.name;
+        f.site["region"] = datapointResponses.site.region.name.toUpperCase();
+        f.site["country"] = datapointResponses.data.SiteRep.DV.Location.country;
+        f.site["continent"] = datapointResponses.data.SiteRep.DV.Location.continent;
+        f.site["latitude"] = parseFloat(datapointResponses.data.SiteRep.DV.Location.lat);
+        f.site["longitude"] = parseFloat(datapointResponses.data.SiteRep.DV.Location.lon);
+        f.site["elevation"] = parseFloat(datapointResponses.data.SiteRep.DV.Location.elevation);
+        let data = this.mapDataResponse(datapointResponses.data.SiteRep.DV.Location.Period);
         f["forecast"] = {};
         f.forecast["current"] = data.shift();
+        f.forecast["text"] = {};
+        f.forecast.text["regional"] = this.mapTextResponse(datapointResponses.text);
         f.forecast["future"] = data;
         return f;
     }
 
-    static mapResponseData(array) {
+    static mapDataResponse(array) {
         let data = [];
         let now = new moment.utc();
         array.forEach((day)=> {
@@ -100,6 +115,24 @@ export default class Forecast {
             });
         });
         return data;
+    }
+
+    static mapTextResponse(text) {
+        const current = text.RegionalFcst.FcstPeriods.Period[0];
+
+        let str = "Regionally.";
+
+        for(let i = 1; i < current.Paragraph.length-1; i++){
+            let s = current.Paragraph[i].$;
+            s = s.slice(0, s.slice(0, -1).lastIndexOf(".")) + ".";
+            str = str + " " + s;
+        }
+
+        let end = current.Paragraph[current.Paragraph.length - 1].$;
+        end = end.slice(0, end.slice(0, -1).lastIndexOf(".")) + ".";
+        str = str + " Tomorrow. ";
+        str = str + end;
+        return str;
     }
 
     static getWeatherType(index) {

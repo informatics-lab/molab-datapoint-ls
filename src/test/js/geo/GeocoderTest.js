@@ -31,7 +31,11 @@ describe('Geocoder', () => {
     // }).timeout(1000);
 
     // it('rejects Paris', (done) => {
-    //     expect(geocoder.getLatLng('Paris')).to.eventually.be.rejected.notify(done);
+    //     expect(geocoder.getLatLngUK('Paris')).to.eventually.be.rejected.notify(done);
     // }).timeout(1000);
-
+    //
+    it('accepts Exeter', (done) => {
+        geocoder.getLatLngUK('Exeter').then((res)=>{console.log(res)});
+        expect(geocoder.getLatLngUK('Exeter')).to.eventually.be.ok.notify(done);
+    }).timeout(1000);
 });
