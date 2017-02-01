@@ -7,6 +7,9 @@ import * as visibilities from "./visibilities";
 import * as weatherTypes from "./weatherTypes";
 import * as uvIndexes from "./uvIndexes";
 
+/**
+ * GeoJSON forecast feature
+ */
 export default class Forecast {
 
     constructor() {
@@ -26,21 +29,29 @@ export default class Forecast {
      */
     static buildFromDatapointResponses(datapointResponses) {
         let f = new Forecast();
-        f["site"] = {};
-        f.site["id"] = datapointResponses.data.SiteRep.DV.Location.i;
-        f.site["name"] = datapointResponses.data.SiteRep.DV.Location.name;
-        f.site["region"] = datapointResponses.site.region.name.toUpperCase();
-        f.site["country"] = datapointResponses.data.SiteRep.DV.Location.country;
-        f.site["continent"] = datapointResponses.data.SiteRep.DV.Location.continent;
-        f.site["latitude"] = parseFloat(datapointResponses.data.SiteRep.DV.Location.lat);
-        f.site["longitude"] = parseFloat(datapointResponses.data.SiteRep.DV.Location.lon);
-        f.site["elevation"] = parseFloat(datapointResponses.data.SiteRep.DV.Location.elevation);
+        f["type"] = "Feature";
+        
+        f["geometry"] = {};
+        f.geometry["type"] = "Point";
+        f.geometry["coordinates"] = new Array();
+        f.geometry.coordinates.push(parseFloat(datapointResponses.data.SiteRep.DV.Location.lat));
+        f.geometry.coordinates.push(parseFloat(datapointResponses.data.SiteRep.DV.Location.lon));
+        
+        f["properties"] = {};
+        f.properties["site"] = {};
+        f.properties.site["id"] = datapointResponses.data.SiteRep.DV.Location.i;
+        f.properties.site["name"] = datapointResponses.data.SiteRep.DV.Location.name.toUpperCase();
+        f.properties.site["region"] = datapointResponses.site.region.name.toUpperCase();
+        f.properties.site["country"] = datapointResponses.data.SiteRep.DV.Location.country.toUpperCase();
+        f.properties.site["continent"] = datapointResponses.data.SiteRep.DV.Location.continent.toUpperCase();
+        f.properties.site["elevation"] = parseFloat(datapointResponses.data.SiteRep.DV.Location.elevation);
         let data = this.mapDataResponse(datapointResponses.data.SiteRep.DV.Location.Period);
-        f["forecast"] = {};
-        f.forecast["current"] = data.shift();
-        f.forecast["text"] = {};
-        f.forecast.text["regional"] = this.mapTextResponse(datapointResponses.text);
-        f.forecast["future"] = data;
+        f.properties["forecast"] = {};
+        f.properties.forecast["current"] = data.shift();
+        f.properties.forecast["text"] = {};
+        f.properties.forecast.text["regional"] = this.mapTextResponse(datapointResponses.text);
+        f.properties.forecast["future"] = data;
+        
         return f;
     }
 
@@ -61,7 +72,7 @@ export default class Forecast {
                         feelsLikeTemperature: {
                             name: "feels like temperature",
                             value: parseInt(timestep.F),
-                            units: "°C"
+                            units: "\u00B0C"
                         },
                         windGust: {
                             name: "wind gust",
@@ -71,12 +82,12 @@ export default class Forecast {
                         screenRelativeHumidity: {
                             name: "screen relative humidity",
                             value: parseInt(timestep.H),
-                            units: "%"
+                            units: "\u0025"
                         },
                         temperature: {
                             name: "temperature",
                             value: parseInt(timestep.T),
-                            units: "°C"
+                            units: "\u00B0C"
                         },
                         visibility: {
                             name: "visibility",
@@ -107,7 +118,7 @@ export default class Forecast {
                         precipitationProbability: {
                             name: "precipitation probability",
                             value: parseInt(timestep.Pp),
-                            units: "%"
+                            units: "\u0025"
                         }
                     };
                     data.push(ts);
