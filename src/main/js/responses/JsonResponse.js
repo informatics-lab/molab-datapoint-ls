@@ -16,7 +16,7 @@ export default class JsonResponse {
         } else {
             this.headers = headers.set("Content-type", "application/json").toJS();
         }
-
+        
         this.body = JSON.stringify(body);
     }
 
