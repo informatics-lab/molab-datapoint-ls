@@ -137,8 +137,6 @@ export default class Forecast {
 
         str = str + "There is a " + summary.probPrecip + "% chance of precipitation.";
 
-        console.log(str);
-
         return str;
     }
 

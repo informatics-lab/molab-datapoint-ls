@@ -50,7 +50,6 @@ export default class Geocoder {
 const placeInUK = (result) => {
     return new Promise((resolve, reject) => {
         result.address_components.forEach((ac) => {
-            console.log(ac.types.toString()+ " "+ ac.long_name);
             if (ac.long_name === "United Kingdom") {
                 resolve(result);
             }
