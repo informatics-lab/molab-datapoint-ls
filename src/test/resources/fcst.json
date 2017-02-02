@@ -1,0 +1,2126 @@
+[
+  {
+    "dateTime": "2017-02-02T12:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "S",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 29,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 84,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 10,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "MO",
+        "description": "Moderate - Between 4-10 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 13,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "15",
+        "description": "Heavy rain"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 93,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-02T15:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "S",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 29,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 86,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 10,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 13,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 48,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-02T18:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "S",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 29,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 85,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 11,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 13,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 30,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-02T21:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "S",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 29,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 81,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 10,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 13,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 9,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-03T00:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 7,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 27,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 80,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 10,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 13,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 2,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-03T03:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 25,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 81,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 9,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 11,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 12,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-03T06:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 5,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 20,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 81,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 9,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 3,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-03T09:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "S",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 5,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 20,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 83,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 9,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "3",
+        "description": "Partly cloudy (day)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 2,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-03T12:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 7,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 25,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 71,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 10,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 11,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 16,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-03T15:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 29,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 72,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 10,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 16,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 36,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-03T18:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 5,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 34,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 75,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 9,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 16,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "12",
+        "description": "Light rain"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 53,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-03T21:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "S",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 34,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 83,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 16,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "8",
+        "description": "Overcast"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 26,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-04T00:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 38,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 74,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 7,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "EX",
+        "description": "Excellent - More than 40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 18,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 15,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-04T03:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 3,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 25,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 76,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 11,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 9,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-04T06:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 3,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 11,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 83,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 8,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-04T09:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "ESE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 9,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 84,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 4,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "12",
+        "description": "Light rain"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 54,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-04T12:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "WNW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 5,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 13,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 75,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 7,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "12",
+        "description": "Light rain"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 53,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-04T15:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "WSW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 13,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 66,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 15,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-04T18:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 3,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 13,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 78,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 5,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 5,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-04T21:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 11,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 84,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 5,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-05T00:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 11,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 85,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 6,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-05T03:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 11,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 90,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 7,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-05T06:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 9,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 92,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 4,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 4,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-05T09:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "WNW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 11,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 91,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "MO",
+        "description": "Moderate - Between 4-10 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 9,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-05T12:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "WNW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 3,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 16,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 82,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 10,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-05T15:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "WNW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 16,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 77,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 7,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 9,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 11,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-05T18:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "W",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 13,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 79,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 9,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-05T21:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "W",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 13,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 84,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 5,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-06T00:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "WNW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 1,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 13,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 86,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "0",
+        "description": "Clear night"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 3,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-06T03:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "WNW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 0,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 13,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 88,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 3,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "2",
+        "description": "Partly cloudy (night)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 3,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-06T06:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "W",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": -1,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 11,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 90,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "0",
+        "description": "Clear night"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 4,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-06T09:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "WSW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 0,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 11,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 91,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 2,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 4,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "1",
+        "description": "Sunny day"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 3,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-06T12:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SW",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 11,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 80,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 4,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "3",
+        "description": "Partly cloudy (day)"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 1,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-06T15:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "S",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 16,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 68,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 8,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 7,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "1",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 6,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-06T18:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 4,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 18,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 77,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 7,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "VG",
+        "description": "Very good - Between 20-40 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 9,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "7",
+        "description": "Cloudy"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 10,
+      "units": "%"
+    }
+  },
+  {
+    "dateTime": "2017-02-06T21:00:00Z",
+    "windDirection": {
+      "name": "wind direction",
+      "value": "SSE",
+      "units": "16-point compass direction"
+    },
+    "feelsLikeTemperature": {
+      "name": "feels like temperature",
+      "value": 3,
+      "units": "°C"
+    },
+    "windGust": {
+      "name": "wind gust",
+      "value": 22,
+      "units": "mph"
+    },
+    "screenRelativeHumidity": {
+      "name": "screen relative humidity",
+      "value": 84,
+      "units": "%"
+    },
+    "temperature": {
+      "name": "temperature",
+      "value": 6,
+      "units": "°C"
+    },
+    "visibility": {
+      "name": "visibility",
+      "value": {
+        "index": "GO",
+        "description": "Good - Between 10-20 km"
+      }
+    },
+    "windSpeed": {
+      "name": "wind speed",
+      "value": 11,
+      "units": "mph"
+    },
+    "maxUVIndex": {
+      "name": "maximum ultra violet index",
+      "value": {
+        "index": "0",
+        "description": "Low exposure. No protection required. You can safely stay outside."
+      }
+    },
+    "weatherType": {
+      "name": "weather type",
+      "value": {
+        "index": "8",
+        "description": "Overcast"
+      }
+    },
+    "precipitationProbability": {
+      "name": "precipitation probability",
+      "value": 29,
+      "units": "%"
+    }
+  }
+]
