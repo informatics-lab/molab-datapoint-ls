@@ -122,7 +122,7 @@ export default class Forecast {
             W: "Westerly"
         };
 
-        str = str + "Today, temperatures will reach a high of " + summary.maxTemp + "\u00B0C with a minimum temperature of " + summary.minTemp+ " expected. ";
+        str = str + "Temperatures will reach a high of " + summary.maxTemp + "\u00B0C with a minimum temperature of " + summary.minTemp+ " expected. ";
         str = str + "Given the other conditions today this will feel like " + summary.maxFeelsLike +"\u00B0C at its peak. ";
         if(summary.maxWindSpeed > 0) {
             str = str + windDirs[summary.windDirection] + " winds will reach a maximum of " + summary.maxWindSpeed + "mph. "
@@ -132,7 +132,7 @@ export default class Forecast {
         if(split.length === 2) {
             str = str + "Visibility is expected to be " + split[0].trim().toLowerCase() + " with a range of " + split[1].trim().toLowerCase() + ". ";
         } else if (split.length === 3) {
-            str = str + "Visibility is expected to be " + split[0].trim().toLowerCase() + " with a range of " + split[1].trim().toLowerCase() + " and " + split[2].trim().toLowerCase() + ".";
+            str = str + "Visibility is expected to be " + split[0].trim().toLowerCase() + " with a range of " + split[1].trim().toLowerCase() + " and " + split[2].trim().toLowerCase() + ". ";
         }
 
         str = str + "There is a " + summary.probPrecip + "% chance of precipitation.";
